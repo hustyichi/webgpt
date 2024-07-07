@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "websitegpt"
+version = "0.1.0"
+description = ""
+authors = ["hustyichi <hustyichi@163.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+firecrawl-py = "^0.0.20"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
